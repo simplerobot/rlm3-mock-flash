@@ -27,7 +27,7 @@ VPATH = $(TEST_SOURCE_DIRS)
 
 .PHONY: default all library test release clean
 
-default : release
+default : all
 
 all : release
 
